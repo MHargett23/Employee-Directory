@@ -15,4 +15,4 @@ The user should be able to:
 
 [Visit this website](https://dry-dusk-11905.herokuapp.com/)
 
-![Screenshot of Portfolio](./assets/images/edss.png)
+![Screenshot of Portfolio](./public/assets/images/edss.png)
