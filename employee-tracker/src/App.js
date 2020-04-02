@@ -1,26 +1,36 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import api from './utils/api';
+import BodyTable from './Components/tableBody'
+class App extends React.component {
+  state = {
+    employees: []
+  };
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+componentDidMount() {
+  api.getMany(100)
+  .then(res => this .setState({ employees: res.data }))
+  .catch(err => console.log(err));
 }
+
+render () {
+  return(
+  <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Image</th>
+      <th scope="col">Full Name</th>
+      <th scope="col">Email</th>
+    </tr>
+  </thead>
+  <tbody>
+   
+
+      <BodyTable users={this.state.employees}/>
+    
+  </tbody>
+</table>)
+}}
 
 export default App;
