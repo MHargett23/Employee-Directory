@@ -13,6 +13,8 @@ The user should be able to:
 <ul><li>Sort the table by at least one category</li>
 <li>Filter the users by at least one property.</li></ul>  
 
+### Link
 [Visit this website](https://dry-dusk-11905.herokuapp.com/)
 
+### Screenshot
 ![Screenshot of Portfolio](./public/assets/images/edss.png)
