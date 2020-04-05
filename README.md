@@ -17,4 +17,7 @@ The user should be able to:
 [Visit this website](https://dry-dusk-11905.herokuapp.com/)
 
 ### Screenshot
-![Screenshot of Portfolio](./public/assets/images/edss.png)
+![Screenshot](./public/assets/images/edss.png)
+
+### Authors
+Martin Hargett | [GitHub](https://github.com/MHargett23)  
