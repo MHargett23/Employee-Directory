@@ -13,11 +13,11 @@ The user should be able to:
 <ul><li>Sort the table by at least one category</li>
 <li>Filter the users by at least one property</li></ul>  
 
-### Link
-[Visit this website](https://dry-dusk-11905.herokuapp.com/)
+### Authors
+Martin Hargett | [GitHub](https://github.com/MHargett23)  
 
 ### Screenshot
 ![Screenshot](./public/assets/images/edss.png)
 
-### Authors
-Martin Hargett | [GitHub](https://github.com/MHargett23)  
+### Link
+[Visit this website](https://dry-dusk-11905.herokuapp.com/)
